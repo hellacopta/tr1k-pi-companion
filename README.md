@@ -10,6 +10,7 @@ the UI is drawn on a 1024x600 grid and scales to whatever the screen is).
 
 ## What you need
 
+- A TR-1000
 - Raspberry Pi (any with a USB host port; Pi 4 used), Raspberry Pi OS, a touchscreen.
 - `python3-pygame` (`sudo apt install python3-pygame`, or `pip install -r requirements.txt`).
 - The user in the `audio` and `dialout` groups: `sudo usermod -aG audio,dialout $USER`, then log
