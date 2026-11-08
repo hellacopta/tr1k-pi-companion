@@ -1,0 +1,3 @@
+# The app talks to the TR-1000 through Linux's own drivers (ALSA raw MIDI, cdc_acm serial),
+# so this is the whole list. On Raspberry Pi OS: sudo apt install python3-pygame
+pygame>=2.1

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=TR-1000 Companion
+Comment=Touch controller for the Roland TR-1000
+# Copy to ~/.config/autostart/ and change the path if the app is not in ~/tr-companion.
+Exec=sh -c "sleep 3; exec sh $HOME/tr-companion/start.sh"
+X-GNOME-Autostart-enabled=true

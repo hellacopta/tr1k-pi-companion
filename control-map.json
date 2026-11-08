@@ -1,0 +1,1094 @@
+{
+ "generated_by": "tools/control_map.py",
+ "midi": {
+  "source": "Roland TR-1000 MIDI Implementation Chart v1.11 (Oct 1, 2025); channel measured 2026-10-28",
+  "notes": [
+   "No SysEx. Program change (kit/pattern) only with Tx/Rx Program Change on.",
+   "Clock, Start/Continue/Stop, Song Position both ways.",
+   "Notes: BD 36, SD 38, LT 43, HT 50, RS 37, HC 39, CH 42, OH 46, CC 49, RC 51, TRG 84 (configurable)."
+  ],
+  "controls": [
+   {
+    "cc": 9,
+    "instrument": null,
+    "name": "EXT IN",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 12,
+    "instrument": null,
+    "name": "DLY LVL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 13,
+    "instrument": null,
+    "name": "DLY TIME",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 14,
+    "instrument": null,
+    "name": "DLY FB",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 15,
+    "instrument": null,
+    "name": "MFX ON",
+    "kind": "switch (>=64 on)",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 16,
+    "instrument": null,
+    "name": "MFX C1",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 17,
+    "instrument": null,
+    "name": "MFX C2",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 18,
+    "instrument": null,
+    "name": "MFX C3",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 19,
+    "instrument": null,
+    "name": "AFX ON",
+    "kind": "switch (>=64 on)",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 20,
+    "instrument": null,
+    "name": "FILTER",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 21,
+    "instrument": null,
+    "name": "DRIVE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 22,
+    "instrument": "BD",
+    "name": "TUNE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 23,
+    "instrument": "BD",
+    "name": "DECAY",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 24,
+    "instrument": "BD",
+    "name": "MIX",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 25,
+    "instrument": "BD",
+    "name": "CTRL1",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 26,
+    "instrument": "BD",
+    "name": "CTRL2",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 27,
+    "instrument": "BD",
+    "name": "CTRL3",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 28,
+    "instrument": "BD",
+    "name": "LEVEL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 29,
+    "instrument": "SD",
+    "name": "TUNE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 30,
+    "instrument": "SD",
+    "name": "DECAY",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 31,
+    "instrument": "SD",
+    "name": "MIX",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 46,
+    "instrument": "SD",
+    "name": "CTRL1",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 47,
+    "instrument": "SD",
+    "name": "CTRL2",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 48,
+    "instrument": "SD",
+    "name": "CTRL3",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 49,
+    "instrument": "SD",
+    "name": "LEVEL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 50,
+    "instrument": "LT",
+    "name": "TUNE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 51,
+    "instrument": "LT",
+    "name": "DECAY",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 52,
+    "instrument": "LT",
+    "name": "MIX",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 53,
+    "instrument": "LT",
+    "name": "CTRL1",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 54,
+    "instrument": "LT",
+    "name": "CTRL2",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 55,
+    "instrument": "LT",
+    "name": "CTRL3",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 56,
+    "instrument": "LT",
+    "name": "LEVEL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 57,
+    "instrument": "HT",
+    "name": "TUNE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 58,
+    "instrument": "HT",
+    "name": "DECAY",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 59,
+    "instrument": "HT",
+    "name": "MIX",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 60,
+    "instrument": "HT",
+    "name": "CTRL1",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 61,
+    "instrument": "HT",
+    "name": "CTRL2",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 62,
+    "instrument": "HT",
+    "name": "CTRL3",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 63,
+    "instrument": "HT",
+    "name": "LEVEL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 80,
+    "instrument": "RS",
+    "name": "TUNE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 81,
+    "instrument": "RS",
+    "name": "DECAY",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 82,
+    "instrument": "RS",
+    "name": "CTRL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 83,
+    "instrument": "RS",
+    "name": "LEVEL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 84,
+    "instrument": "HC",
+    "name": "TUNE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 85,
+    "instrument": "HC",
+    "name": "DECAY",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 86,
+    "instrument": "HC",
+    "name": "CTRL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 87,
+    "instrument": "HC",
+    "name": "LEVEL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 89,
+    "instrument": null,
+    "name": "MORPH",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 90,
+    "instrument": null,
+    "name": "REV TIME",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 91,
+    "instrument": null,
+    "name": "REV LVL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 102,
+    "instrument": "CH",
+    "name": "TUNE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 103,
+    "instrument": "CH",
+    "name": "DECAY",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 104,
+    "instrument": "CH",
+    "name": "CTRL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 105,
+    "instrument": "CH",
+    "name": "LEVEL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 106,
+    "instrument": "OH",
+    "name": "TUNE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 107,
+    "instrument": "OH",
+    "name": "DECAY",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 108,
+    "instrument": "OH",
+    "name": "CTRL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 109,
+    "instrument": "OH",
+    "name": "LEVEL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 110,
+    "instrument": "CC",
+    "name": "TUNE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 111,
+    "instrument": "CC",
+    "name": "DECAY",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 112,
+    "instrument": "CC",
+    "name": "CTRL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 113,
+    "instrument": "CC",
+    "name": "LEVEL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 114,
+    "instrument": "RC",
+    "name": "TUNE",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 115,
+    "instrument": "RC",
+    "name": "DECAY",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 116,
+    "instrument": "RC",
+    "name": "CTRL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   },
+   {
+    "cc": 117,
+    "instrument": "RC",
+    "name": "LEVEL",
+    "kind": "0-127",
+    "channel": "Pattern Ch (10 by default; MEASURED 2026-10-28)",
+    "direction": "transmitted and recognized"
+   }
+  ]
+ },
+ "serial": {
+  "source": "USB CDC port 0582:02E5; reads op 82, writes op 01, notices op 03",
+  "fixed": [
+   {
+    "what": "current kit (0-based; TR screen shows +1)",
+    "block": "03",
+    "page": "00",
+    "index": "0",
+    "offset": "0072",
+    "values": "0-127",
+    "how_known": "captured + proven from the Pi 2026-10-28"
+   },
+   {
+    "what": "current kit, second write the app makes",
+    "block": "74",
+    "page": "00",
+    "index": "0",
+    "offset": "0406",
+    "values": "0-127",
+    "how_known": "captured 2026-10-28"
+   },
+   {
+    "what": "kit name (16 chars, one per value)",
+    "block": "04",
+    "page": "kit",
+    "index": "0",
+    "offset": "0203",
+    "values": "16 chars",
+    "how_known": "read at connect (capture 2026-10-28)"
+   },
+   {
+    "what": "track N sound name + category",
+    "block": "10+10N",
+    "page": "kit",
+    "index": "0",
+    "offset": "024d-0267",
+    "values": "16 + 8 chars",
+    "how_known": "captured + proven 2026-10-28"
+   },
+   {
+    "what": "track N layer L sound id (0 OFF, 1000 = sample player)",
+    "block": "11+10N",
+    "page": "kit",
+    "index": "L (0 A, 1 B)",
+    "offset": "0b6d",
+    "values": "0-999, 1000",
+    "how_known": "captured + proven 2026-10-28"
+   },
+   {
+    "what": "track N layer L sample slot (slot + 1, 0 none)",
+    "block": "11+10N",
+    "page": "kit",
+    "index": "L",
+    "offset": "0f8d",
+    "values": "0-",
+    "how_known": "captured 2026-10-28"
+   },
+   {
+    "what": "sample pool slot: path",
+    "block": "9c",
+    "page": "slot",
+    "index": "0",
+    "offset": "02e7",
+    "values": "270 chars",
+    "how_known": "captured 2026-10-28 (slots > 255 use the u16 page)"
+   },
+   {
+    "what": "sample pool slot: name",
+    "block": "9c",
+    "page": "slot",
+    "index": "0",
+    "offset": "03bd",
+    "values": "chars",
+    "how_known": "captured 2026-10-28"
+   },
+   {
+    "what": "mixer: pan",
+    "block": "0d",
+    "page": "kit",
+    "index": "track",
+    "offset": "0244",
+    "values": "0-1000, 500 = centre",
+    "how_known": "app connect reads + the app's parameter order (2026-11-08)"
+   },
+   {
+    "what": "mixer: reverb send (order vs delay unverified)",
+    "block": "0d",
+    "page": "kit",
+    "index": "track",
+    "offset": "0245",
+    "values": "0-1000",
+    "how_known": "app connect reads (2026-11-08)"
+   },
+   {
+    "what": "mixer: delay send (order vs reverb unverified)",
+    "block": "0d",
+    "page": "kit",
+    "index": "track",
+    "offset": "0246",
+    "values": "0-1000",
+    "how_known": "app connect reads (2026-11-08)"
+   },
+   {
+    "what": "mixer: FX route",
+    "block": "0d",
+    "page": "kit",
+    "index": "track",
+    "offset": "0247",
+    "values": "0 THROUGH 1 MASTER 2 ANALOG",
+    "how_known": "captured 2026-10-28"
+   },
+   {
+    "what": "mixer: SC depth",
+    "block": "0d",
+    "page": "kit",
+    "index": "track",
+    "offset": "0248",
+    "values": "0-1000 = 0-100.0 %",
+    "how_known": "captured 2026-10-28"
+   },
+   {
+    "what": "mixer: track colour",
+    "block": "0d",
+    "page": "kit",
+    "index": "track",
+    "offset": "024a",
+    "values": "0-11: RED ORANGE YELLOW LIME GREEN CYAN SKYBLUE BLUE PURPLE MAGENTA PINK WHITE",
+    "how_known": "captured 2026-10-28"
+   }
+  ],
+  "kit_fx": [
+   {
+    "key": "rev_type",
+    "name": "reverb type",
+    "block": "05",
+    "page": "kit",
+    "index": 0,
+    "offset": "0959",
+    "min": 0,
+    "max": 5,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)",
+    "options": [
+     "AMB",
+     "ROOM",
+     "HALL1",
+     "HALL2",
+     "PLATE",
+     "MOD"
+    ],
+    "options_source": "TR-1000 App string tables"
+   },
+   {
+    "key": "rev_route",
+    "name": "reverb FX route",
+    "block": "05",
+    "page": "kit",
+    "index": 0,
+    "offset": "095a",
+    "min": 0,
+    "max": 2,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)",
+    "options": [
+     "THROUGH",
+     "MASTER",
+     "ANALOG"
+    ],
+    "options_source": "same values as the mixer route / plain on-off"
+   },
+   {
+    "key": "rev_level",
+    "name": "reverb level",
+    "block": "05",
+    "page": "kit",
+    "index": 0,
+    "offset": "095b",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "rev_time",
+    "name": "reverb time",
+    "block": "05",
+    "page": "kit",
+    "index": 0,
+    "offset": "095c",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "rev_sc",
+    "name": "reverb SC depth",
+    "block": "05",
+    "page": "kit",
+    "index": 0,
+    "offset": "095d",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "rev_predly",
+    "name": "reverb pre-delay",
+    "block": "05",
+    "page": "kit",
+    "index": 0,
+    "offset": "096f",
+    "min": 0,
+    "max": 100,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "rev_locut",
+    "name": "reverb low cut",
+    "block": "05",
+    "page": "kit",
+    "index": 0,
+    "offset": "0970",
+    "min": 0,
+    "max": 16,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)",
+    "options": [
+     "FLAT",
+     "20Hz",
+     "25Hz",
+     "31.5Hz",
+     "40Hz",
+     "50Hz",
+     "63Hz",
+     "80Hz",
+     "100Hz",
+     "125Hz",
+     "160Hz",
+     "200Hz",
+     "250Hz",
+     "315Hz",
+     "400Hz",
+     "500Hz",
+     "630Hz"
+    ],
+    "options_source": "standard Roland cut list matching the range (inferred)"
+   },
+   {
+    "key": "rev_hicut",
+    "name": "reverb high cut",
+    "block": "05",
+    "page": "kit",
+    "index": 0,
+    "offset": "0971",
+    "min": 0,
+    "max": 14,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)",
+    "options": [
+     "630Hz",
+     "800Hz",
+     "1kHz",
+     "1.25kHz",
+     "1.6kHz",
+     "2kHz",
+     "2.5kHz",
+     "3.15kHz",
+     "4kHz",
+     "5kHz",
+     "6.3kHz",
+     "8kHz",
+     "10kHz",
+     "12.5kHz",
+     "FLAT"
+    ],
+    "options_source": "standard Roland cut list matching the range (inferred)"
+   },
+   {
+    "key": "rev_density",
+    "name": "reverb density",
+    "block": "05",
+    "page": "kit",
+    "index": 0,
+    "offset": "0972",
+    "min": 1,
+    "max": 10,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "dly_type",
+    "name": "delay type",
+    "block": "06",
+    "page": "kit",
+    "index": 0,
+    "offset": "0980",
+    "min": 0,
+    "max": 3,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)",
+    "options": [
+     "DIGITAL",
+     "PANNING",
+     "TAPE ECHO",
+     "PITCH SHIFT"
+    ],
+    "options_source": "TR-1000 App string tables"
+   },
+   {
+    "key": "dly_sync",
+    "name": "delay sync",
+    "block": "06",
+    "page": "kit",
+    "index": 0,
+    "offset": "0981",
+    "min": 0,
+    "max": 1,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)",
+    "options": [
+     "OFF",
+     "ON"
+    ],
+    "options_source": "same values as the mixer route / plain on-off"
+   },
+   {
+    "key": "dly_level",
+    "name": "delay level",
+    "block": "06",
+    "page": "kit",
+    "index": 0,
+    "offset": "0982",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "dly_rvb",
+    "name": "delay reverb send",
+    "block": "06",
+    "page": "kit",
+    "index": 0,
+    "offset": "0983",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "dly_route",
+    "name": "delay FX route",
+    "block": "06",
+    "page": "kit",
+    "index": 0,
+    "offset": "0984",
+    "min": 0,
+    "max": 2,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)",
+    "options": [
+     "THROUGH",
+     "MASTER",
+     "ANALOG"
+    ],
+    "options_source": "same values as the mixer route / plain on-off"
+   },
+   {
+    "key": "dly_sc",
+    "name": "delay SC depth",
+    "block": "06",
+    "page": "kit",
+    "index": 0,
+    "offset": "0987",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "dly_time",
+    "name": "delay time",
+    "block": "06",
+    "page": "kit",
+    "index": 0,
+    "offset": "099d",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "dly_fb",
+    "name": "delay feedback",
+    "block": "06",
+    "page": "kit",
+    "index": 0,
+    "offset": "099f",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "sc_source",
+    "name": "side chain source",
+    "block": "0c",
+    "page": "kit",
+    "index": 0,
+    "offset": "023a",
+    "min": 0,
+    "max": 18,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)",
+    "options": [
+     "OFF",
+     "BD A&B",
+     "BD A",
+     "BD B",
+     "SD A&B",
+     "SD A",
+     "SD B",
+     "LT A&B",
+     "LT A",
+     "LT B",
+     "HT A&B",
+     "HT A",
+     "HT B",
+     "RS",
+     "HC",
+     "CH",
+     "OH",
+     "CC",
+     "RC"
+    ],
+    "options_source": "TR-1000 App string tables"
+   },
+   {
+    "key": "sc_modetime",
+    "name": "side chain mode time",
+    "block": "0c",
+    "page": "kit",
+    "index": 0,
+    "offset": "023b",
+    "min": 0,
+    "max": 500,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "sc_release",
+    "name": "side chain release",
+    "block": "0c",
+    "page": "kit",
+    "index": 0,
+    "offset": "023c",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "sc_curve",
+    "name": "side chain curve",
+    "block": "0c",
+    "page": "kit",
+    "index": 0,
+    "offset": "023d",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "sc_gateduck",
+    "name": "side chain gate/duck",
+    "block": "0c",
+    "page": "kit",
+    "index": 0,
+    "offset": "023e",
+    "min": 0,
+    "max": 1,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)",
+    "options": [
+     "DUCK",
+     "GATE"
+    ],
+    "options_source": "TR-1000 App string tables"
+   },
+   {
+    "key": "sc_mstr",
+    "name": "side chain master depth",
+    "block": "0c",
+    "page": "kit",
+    "index": 0,
+    "offset": "023f",
+    "min": 0,
+    "max": 1000,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)"
+   },
+   {
+    "key": "sc_mode",
+    "name": "side chain mode (sets what MODE TIME means)",
+    "block": "0c",
+    "page": "kit",
+    "index": 0,
+    "offset": "0241",
+    "min": 0,
+    "max": 1,
+    "source": "LEARN page 2026-11-08 (TR change notices, one knob at a time)",
+    "options": [
+     "TIME",
+     "STEP"
+    ],
+    "options_source": "TR-1000 App string tables"
+   }
+  ],
+  "kit_fx_read_windows": {
+   "05": {
+    "first": "0959",
+    "count": 26
+   },
+   "06": {
+    "first": "0980",
+    "count": 32
+   },
+   "0c": {
+    "first": "023a",
+    "count": 8
+   }
+  },
+  "load_sound": "op 09 <instrument u16> <sample u16> <track> 00 <layer> 00 (samples: instrument 1000 + sample id)",
+  "undecoded_kit_blocks": [
+   {
+    "block": "04",
+    "offset": "0203",
+    "count": 22,
+    "note": "COMMON: kit name then 601, 1, 0... (tempo?)"
+   },
+   {
+    "block": "07",
+    "offset": "09ea",
+    "count": 23,
+    "note": "type 4/5 first, three ids ~2574-2579: master FX or analog FX"
+   },
+   {
+    "block": "08",
+    "offset": "09bb",
+    "count": 18,
+    "note": "80/106 third, ids 2511/2514: analog FX or master FX"
+   },
+   {
+    "block": "09",
+    "offset": "0219",
+    "count": 6,
+    "note": "500, 0, 0, 0, 1, 0: filter/drive?"
+   },
+   {
+    "block": "0a",
+    "offset": "021f",
+    "count": 16,
+    "note": "1000 x3, 140, 240, 12: EXT_IN or KIT_MOD"
+   },
+   {
+    "block": "0b",
+    "offset": "022f",
+    "count": 11,
+    "note": "all 0 on both kits"
+   }
+  ]
+ }
+}
